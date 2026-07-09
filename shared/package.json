@@ -1,0 +1,9 @@
+{
+  "name": "groweasy-shared",
+  "version": "1.0.0",
+  "private": true,
+  "main": "schema.ts",
+  "dependencies": {
+    "zod": "^3.25.76"
+  }
+}
