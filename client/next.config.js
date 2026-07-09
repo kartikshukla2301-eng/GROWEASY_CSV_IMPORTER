@@ -6,6 +6,7 @@ const nextConfig = {
   transpilePackages: ["groweasy-shared"],
   webpack(config) {
     config.resolve.alias["groweasy-shared"] = path.resolve(__dirname, "../shared/schema.ts");
+    config.resolve.alias["zod"] = require.resolve("zod");
     return config;
   },
 };
