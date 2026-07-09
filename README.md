@@ -292,14 +292,8 @@ Each imported record maps to the following schema (all fields optional):
 git clone https://github.com/your-org/groweasy-csv-importer
 cd groweasy-csv-importer
 
-# Install root dependencies (concurrently)
+# Install all dependencies and bootstrap workspaces (client, server, shared)
 npm install
-
-# Install server dependencies
-cd server && npm install && cd ..
-
-# Install client dependencies
-cd client && npm install && cd ..
 ```
 
 ---
