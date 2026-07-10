@@ -13,7 +13,8 @@
     "declaration": true,
     "declarationMap": true,
     "sourceMap": true,
-    "baseUrl": "."
+    "baseUrl": ".",
+    "ignoreDeprecations": "5.0"
   },
   "include": ["src/**/*", "../shared/**/*"],
   "exclude": ["node_modules", "dist", "__tests__"]
