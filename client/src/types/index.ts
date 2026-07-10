@@ -1,4 +1,4 @@
-import { CrmRecord, SkippedRecord, ImportResponse } from "groweasy-shared";
+import { CrmRecord, SkippedRecord, ImportResponse } from "groweasy-shared/types";
 
 export type { CrmRecord, SkippedRecord, ImportResponse };
 

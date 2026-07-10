@@ -16,9 +16,8 @@
     "plugins": [{ "name": "next" }],
     "paths": {
       "@/*": ["./src/*"],
-      "groweasy-shared": ["../shared/schema.ts"],
-      "groweasy-shared/*": ["../shared/*"],
-      "zod": ["./node_modules/zod"]
+      "groweasy-shared/types": ["../shared/types.ts"],
+      "groweasy-shared/enums": ["../shared/enums.ts"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],

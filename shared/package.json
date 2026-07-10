@@ -3,6 +3,11 @@
   "version": "1.0.0",
   "private": true,
   "main": "schema.ts",
+  "exports": {
+    ".": "./schema.ts",
+    "./types": "./types.ts",
+    "./enums": "./enums.ts"
+  },
   "dependencies": {
     "zod": "^3.25.76"
   }
