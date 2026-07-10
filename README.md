@@ -202,31 +202,6 @@ After AI processing:
 
 ---
 
-# 📸 Screenshots
-
-## Upload
-
-> Add Screenshot
-
----
-
-## Preview
-
-> Add Screenshot
-
----
-
-## Processing
-
-> Add Screenshot
-
----
-
-## Results
-
-> Add Screenshot
-
----
 
 # 🚀 Installation
 
