@@ -7,7 +7,24 @@ import { errorHandler } from "./middleware/errorHandler";
 
 const app = express();
 
-app.use(cors({ origin: config.corsOrigin }));
+app.use(cors({
+  origin: (origin, callback) => {
+    if (!origin) {
+      callback(null, true);
+      return;
+    }
+    const isAllowed =
+      origin === config.corsOrigin ||
+      /^https?:\/\/localhost(:\d+)?$/.test(origin) ||
+      origin.endsWith(".vercel.app");
+    if (isAllowed) {
+      callback(null, true);
+    } else {
+      callback(new Error(`Origin ${origin} not allowed by CORS`));
+    }
+  },
+  credentials: true
+}));
 app.use(express.json());
 
 app.use("/api", healthRoutes);
