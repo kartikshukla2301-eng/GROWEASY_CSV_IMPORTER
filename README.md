@@ -1,4 +1,4 @@
-# 🚀 AI Powered CSV Importer for GrowEasy CRM
+#  AI Powered CSV Importer for GrowEasy CRM
 
 ![Next.js](https://img.shields.io/badge/Next.js-14-black)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5-blue)
